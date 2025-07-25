@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hridoy Kumar Biswas - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #e0f7fa;
+      color: #2d3748;
+      line-height: 1.6;
+      overflow-x: hidden;
+      padding: 40px 20px;
+    }
+
+    .bg-animation {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background: linear-gradient(-45deg, #e0f7fa, #b2ebf2, #80deea, #4dd0e1);
+      background-size: 400% 400%;
+      animation: gradientShift 15s ease infinite;
+    }
+
+    @keyframes gradientShift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: rgba(255, 255, 255, 0.85);
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      color: #00796b;
+    }
+
+    h2 {
+      margin-top: 30px;
+      font-size: 1.5rem;
+      color: #00695c;
+      border-bottom: 2px solid #4dd0e1;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    p, li {
+      font-size: 1rem;
+      margin: 8px 0;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="bg-animation"></div>
+
+  <div class="container">
+    <h1>Hridoy Kumar Biswas</h1>
+    <p>I’m a passionate learner in the field of web development. I love experimenting with code and building useful and fun projects. Currently learning and growing step by step.</p>
+
+    <h2>Skills</h2>
+    <ul>
+      <li>C</li>
+      <li>C++</li>
+      <li>HTML</li>
+      <li>Python</li>
+    </ul>
+
+    <h2>Projects</h2>
+    <ul>
+      <li>Checkers Game (Android)</li>
+      <li>Color Matching Game (Android)</li>
+    </ul>
+
+    <h2>Education</h2>
+    <ul>
+      <li><strong>SSC:</strong> Singia Secondary School (GPA 5.00)</li>
+      <li><strong>HSC:</strong> Narail Govt. Victoria College, Narail (GPA 5.00)</li>
+      <li><strong>University:</strong> Shahjalal University of Science and Technology (Department of CSE, Session: 2021–22)</li>
+    </ul>
+
+    <h2>Contact</h2>
+    <ul>
+      <li><strong>Email:</strong> hridoybiswass233@gmail.com</li>
+      <li><strong>GitHub:</strong> <a href="https://github.com/2021331097" target="_blank">github.com/2021331097</a></li>
+    </ul>
+
+    <div class="footer">
+      &copy; 2025 Hridoy Kumar Biswas | Portfolio
+    </div>
+  </div>
+
+</body>
+</html>
